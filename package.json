@@ -1,0 +1,43 @@
+{
+  "name": "redux-demo",
+  "version": "1.0.0",
+  "description": "redux demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rimraf ./output && fis3 release -cwd ./output -L"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "fis3-cooker"
+  ],
+  "author": "codering",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^1.11.2",
+    "buffer": "~4.9.1",
+    "classnames": "~2.2.3",
+    "fetch-detector": "~1.0.0",
+    "fetch-ie8": "~1.4.2",
+    "flatten": "^1.0.2",
+    "global": "^4.3.1",
+    "is-buffer": "~1.1.4",
+    "is-plain-object": "^2.0.1",
+    "process": "~0.11.9",
+    "qs": "~6.2.1",
+    "react": "~0.14.8",
+    "react-dom": "~0.14.8",
+    "react-redux": "~4.4.5",
+    "react-router": "~2.8.1",
+    "react-router-redux": "~4.0.6",
+    "redux": "~3.6.0",
+    "redux-action-tools": "~1.2.0",
+    "redux-actions": "^0.13.0",
+    "redux-logger": "^2.7.4"
+  },
+  "devDependencies": {
+    "fis3-cooker": "~0.0.10",
+    "rimraf": "~2.5.4"
+  }
+}
