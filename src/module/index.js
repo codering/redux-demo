@@ -7,14 +7,15 @@ import createLogger from 'redux-logger';
 
 import 'antd/dist/antd.css'
 
+import { message } from 'antd';
+
 import dva from 'dva'
 
 // 1. Initialize
-const app = dva();
-
-app.use({
-    onAction: createLogger()
-})
+const app = dva({
+    onAction: createLogger(),
+    onError: (err) => { message.error(err.message); },
+});
 
 // 2. Model
 app.model(require('./models/users'));

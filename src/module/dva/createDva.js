@@ -88,7 +88,7 @@ export default function createDva(createOpts) {
       store.replaceReducer(createReducer(store.asyncReducers));
       // effects
       if (m.effects) {
-        //        store.runSaga(getSaga(m.effects, m, onError));
+        //@TODO        store.runSaga(getSaga(m.effects, m, onError));
       }
       // subscriptions
       if (m.subscriptions) {
